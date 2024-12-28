@@ -1,6 +1,6 @@
 @font-face {
   font-family: Gilroy;
-  src: url(./fonts/Gilroy-Regular.ttf);
+  src: url(./fonts/Gilroy-Regular.woff);
 }
 
 * {
@@ -82,12 +82,18 @@ body {
 }
 
 #nav h2:nth-last-child(1) {
+  width: 50%;
+  border: none;
+  padding: none;
+}
+
+#nav h2:nth-last-child(2) {
   width: 10%;
   border: none;
 }
 
-#nav h2:nth-last-child(2) {
-  width: 29%;
+#nav h2:nth-last-child(3) {
+  width: 25%;
 }
 
 #nav h3 {
@@ -262,7 +268,7 @@ body {
 #page2part1 {
   height: 100%;
   width: 50%;
-  background-image: url(./Models/mrunal.jpg);
+  background-image: url(./Models/mrunal.webp);
   background-size: cover;
 }
 
@@ -581,7 +587,7 @@ body {
 #page8part1 {
   height: 100%;
   width: 50%;
-  background-image: url(./Models/alia.jpg);
+  background-image: url(./Models/alia.webp);
   background-position: center;
   background-size: cover;
 }
